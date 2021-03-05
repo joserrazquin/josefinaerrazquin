@@ -1,0 +1,156 @@
+* {
+  font-family: Raleway; }
+
+h1 {
+  font-size: 100px; }
+
+.parrafo, .parrafo-otro {
+  font-size: 70px;
+  color: #AD0C1B; }
+
+.parrafo-otro {
+  background-color: cadetblue; }
+
+.insta {
+  width: 15px; }
+
+.bio {
+  border: solid black 1px; }
+
+.fin {
+  background-color: lavender; }
+  .fin h3 {
+    font-style: solid; }
+    .fin h3 p {
+      font-style: oblique; }
+
+.jose {
+  height: 200px;
+  width: 150px; }
+
+.footerPaginas__creditos-firma {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  margin: -17px 38px 18px 482px;
+  text-align: center; }
+
+.footerPaginas__creditos-redes {
+  object-fit: contain;
+  width: 50px;
+  height: 50px; }
+  .footerPaginas__creditos-redes-instagram {
+    margin: 131px 20px 20px 584px; }
+  .footerPaginas__creditos-redes-linkedin {
+    margin: 131px 20px -67px 289px; }
+  .footerPaginas__creditos-redes-github {
+    margin: 131px 20px 20px -7px; }
+  .footerPaginas__creditos-redes-behance {
+    margin: 131px 20px 20px -300px; }
+
+.main__intro {
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh; }
+  .main__intro-containerLink {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.main__carousel {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh; }
+
+.mainContact__contacto {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px; }
+  .mainContact__contacto-name {
+    margin: 20px -146px 20px 316px;
+    padding: 20px 20px 20px 20px; }
+  .mainContact__contacto-email {
+    margin: -38px -158px 30px 307px;
+    padding: 30px 30px 30px 30px; }
+  .mainContact__contacto-phone {
+    margin: -41px -20px 20px 318px;
+    padding: 20px 20px 20px 20px; }
+  .mainContact__contacto-services {
+    margin: -18px 102px 20px 318px;
+    padding: 20px 20px 20px 20px; }
+  .mainContact__contacto-comments {
+    margin: -24px -151px 20px 317px;
+    padding: 20px 20px 20px 20px; }
+  .mainContact__contacto-button {
+    margin: 11px 54px 50px 677px;
+    padding: 20px 20px 20px 20px; }
+
+.contact {
+  margin: -4px 29px -17px 36px;
+  padding: 20px 20px 20px 20px; }
+
+.tituloPrincipal {
+  font-size: 120px;
+  margin: -34px 20px -24px 20px;
+  padding: 20px 20px 20px 20px; }
+
+.mainHome__foto1 {
+  margin-left: 20px; }
+
+.mainHome__foto2 {
+  margin-left: -134px; }
+
+.work {
+  margin: -4px 29px -17px 36px;
+  padding: 20px 20px 20px 20px; }
+
+.mainWork__cementerio-angel {
+  margin: 59px 20px 20px 98px; }
+
+.mainWork__cementerio-cruz {
+  margin: -86px 20px 20px 286px; }
+
+.mainWork__gato-gatito {
+  margin: 105px 20px 20px 98px; }
+
+.mainWork__gato-gaton {
+  margin: -76px 20px 20px 94px; }
+
+.blog {
+  margin: -4px 29px -17px 36px;
+  padding: 20px 20px 20px 20px; }
+
+.mainBlog__fila1-art1 {
+  margin: 123px 20px 20px 200px; }
+  .mainBlog__fila1-art1-titulo {
+    margin-left: -83px; }
+
+.mainBlog__fila1-art2 {
+  margin: 123px 20px 20px 208px; }
+  .mainBlog__fila1-art2-titulo {
+    margin-left: -82px; }
+
+.mainBlog__fila2-art1 {
+  margin: 123px 20px 20px 200px; }
+  .mainBlog__fila2-art1-titulo {
+    margin-left: -83px; }
+
+.mainBlog__fila2-art2 {
+  margin: 123px 20px 20px 208px; }
+  .mainBlog__fila2-art2-titulo {
+    margin-left: -82px; }
+
+.about {
+  margin: -4px 29px -17px 36px;
+  padding: 20px 20px 20px 20px; }
+
+.mainAbout__container-foto {
+  margin: 59px 20px 20px 428px; }
+
+.mainAbout__container-bio {
+  margin: 59px 20px 20px -187px; }

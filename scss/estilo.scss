@@ -1,0 +1,266 @@
+@import "colores";
+@import "tamanios";
+
+* {
+    font-family: Raleway;
+}
+
+h1 {
+    font-size: $titulo;
+}
+
+.parrafo {
+    font-size: 70px;
+    color: $bordo;
+}
+
+.parrafo-otro {
+    @extend .parrafo;
+    background-color: cadetblue;
+}
+
+.insta {
+    width: 15px;
+}
+
+.bio {
+    border: solid black 1px;
+}
+
+.fin {
+    background-color: lavender;
+    h3 {
+        font-style: solid;
+        p { font-style: oblique;
+
+        }
+    }
+}
+
+@mixin sizes ($width, $height) 
+{
+    height:$height;
+    width: $width;
+}
+
+.jose {
+    @include sizes (150px, 200px);
+}
+
+
+.footerPaginas {
+    &__creditos {
+        &-firma {
+            display: flex;
+            flex-direction: row;
+            width: 400px;
+            margin: -17px 38px 18px 482px;
+            text-align: center;
+
+        }
+
+        &-redes {
+            object-fit: contain;
+            width: 50px;
+            height: 50px;
+
+            &-instagram {
+                margin: 131px 20px 20px 584px;
+            }
+
+            &-linkedin {
+                margin: 131px 20px -67px 289px;
+
+            }
+
+            &-github {
+                margin: 131px 20px 20px -7px;
+            }
+
+            &-behance {
+                margin: 131px 20px 20px -300px;
+            }
+        }
+    }
+}
+
+.main{
+
+    &__intro{
+        position: absolute;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+
+        &-containerLink{
+            flex-basis: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    &__carousel{
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+.mainContact {
+
+    &__contacto {
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+
+        &-name {
+            margin: 20px -146px 20px 316px;
+            padding: 20px 20px 20px 20px;
+        }
+        
+        &-email {
+            margin: -38px -158px 30px 307px;
+            padding: 30px 30px 30px 30px;
+        }
+
+        &-phone {
+            margin: -41px -20px 20px 318px;
+            padding: 20px 20px 20px 20px;
+        }
+
+        &-services {
+            margin: -18px 102px 20px 318px;
+            padding: 20px 20px 20px 20px;
+        }
+
+        &-comments {
+            margin: -24px -151px 20px 317px;
+            padding: 20px 20px 20px 20px;
+
+        }
+
+        &-button {
+            margin: 11px 54px 50px 677px;
+            padding: 20px 20px 20px 20px;
+        }
+    }
+}   
+
+.contact {
+    margin: -4px 29px -17px 36px;
+    padding: 20px 20px 20px 20px;
+}
+
+.tituloPrincipal {
+    font-size: 120px;
+    margin: -34px 20px -24px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.mainHome {
+    &__foto1 {
+        margin-left: 20px;
+    }
+
+    &__foto2 {
+        margin-left: -134px;
+
+    }
+}
+
+.work {
+    margin: -4px 29px -17px 36px;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.mainWork {
+    &__cementerio {
+        &-angel {
+            margin: 59px 20px 20px 98px;
+
+        }
+
+        &-cruz {
+            margin: -86px 20px 20px 286px;
+          
+        }
+    }
+
+    &__gato {
+        &-gatito {
+            margin: 105px 20px 20px 98px;
+        }
+
+        &-gaton {
+            margin: -76px 20px 20px 94px;
+        }
+    }
+}
+
+.blog {
+    margin: -4px 29px -17px 36px;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.mainBlog {
+    &__fila1 {
+        &-art1 {
+            margin: 123px 20px 20px 200px;
+
+            &-titulo {
+                margin-left: -83px;
+            }
+        }
+
+        &-art2 {
+            margin: 123px 20px 20px 208px;
+
+            &-titulo {
+                margin-left: -82px;
+            }
+        }
+    }
+
+    &__fila2 {
+        &-art1 {
+            margin: 123px 20px 20px 200px;
+
+            &-titulo {
+                margin-left: -83px;
+            }
+        }
+
+        &-art2 {
+            margin: 123px 20px 20px 208px;
+
+            &-titulo {
+                margin-left: -82px;
+            }
+        }
+    }
+}
+
+.about {
+    margin: -4px 29px -17px 36px;
+    padding: 20px 20px 20px 20px;
+}
+
+.mainAbout {
+    &__container {
+
+        &-foto {
+            margin: 59px 20px 20px 428px;
+        }
+
+        &-bio {
+            margin: 59px 20px 20px -187px;
+        }
+    }
+}
